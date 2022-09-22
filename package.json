@@ -1,7 +1,7 @@
 {
-  "name": "hello-world-javascript-action",
-  "version": "1.0.0",
-  "description": "",
+  "name": "epitech-github-action",
+  "version": "1.1.0",
+  "description": "This action prints \"Hello World\" or \"Hello\" + the name of a person to greet to the log.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/lbarreteau/hello-world-javascript-action.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "lbarreteau",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lbarreteau/hello-world-javascript-action/issues"
@@ -19,5 +19,6 @@
   "homepage": "https://github.com/lbarreteau/hello-world-javascript-action#readme",
   "dependencies": {
     "@actions/core": "^1.9.1"
-  }
+  },
+  "devDependencies": {}
 }
